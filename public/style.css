@@ -1,0 +1,30 @@
+:root {
+  --white: #fff;
+}
+
+.jumbotron {
+  background: var(--white);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
